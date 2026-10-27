@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Subhajit Show - Full Stack Development student and project builder.">
+  <title>Subhajit Show | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo"><span>SS</span> SUBHAJIT <b>SHOW</b></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#certificates">Certificates</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a href="#contact" class="nav-cta">Let's Talk <i class="fa-regular fa-paper-plane"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid container">
+        <div class="hero-content reveal">
+          <span class="eyebrow"><i class="fa-solid fa-hand-sparkles"></i> HELLO, I'M</span>
+          <h1>Subhajit <span>Show</span></h1>
+          <div class="hero-role">
+            <span>I build </span><strong id="typingText">modern web experiences</strong><span class="cursor">|</span>
+          </div>
+          <p class="hero-description">
+            A Computer Science & Engineering student focused on full-stack development,
+            problem solving, and turning ideas into useful digital products.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-outline">Contact Me <i class="fa-regular fa-paper-plane"></i></a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/subhajit998-cmd" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/subhajit-show-b367213a0" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          
+            <a href="mailto:subhajitshow67@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="profile-ring">
+            <img src="assets/images/profile.png" alt="Subhajit Show profile photo">
+          </div>
+          <span class="floating-tag tag-one"><i class="fa-solid fa-code"></i> Full Stack</span>
+          <span class="floating-tag tag-two"><i class="fa-solid fa-bolt"></i> Builder</span>
+          <span class="floating-tag tag-three"><i class="fa-solid fa-graduation-cap"></i> CSE</span>
+        </div>
+      </div>
+      <div class="scroll-indicator"><span></span> Scroll to explore</div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">ABOUT ME</span>
+          <h2>Get to know <span>me</span></h2>
+          <p>Curious by nature. Focused on building. Always learning.</p>
+        </div>
+
+        <div class="about-card glass reveal">
+          <div class="about-copy">
+            <h3>Building ideas into <span>real projects.</span></h3>
+            <p>
+              I'm Subhajit Show, a Computer Science & Engineering student at
+              Haldia Institute of Technology. I enjoy creating responsive interfaces,
+              connecting applications to backends, working with databases, and learning
+              how complete software systems fit together.
+            </p>
+            <p>
+              My current portfolio highlights projects such as OtakuVerse,
+              APKSentinel AI, and a Scientific Calculator. My goal is to keep improving
+              through hands-on development and meaningful projects.
+            </p>
+            <a href="#contact" class="text-link">Let's build something <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="about-stats">
+            <div class="info-item"><i class="fa-regular fa-user"></i><span><small>Name</small>Subhajit Show</span></div>
+            <div class="info-item"><i class="fa-solid fa-graduation-cap"></i><span><small>College</small>Haldia Institute of Technology</span></div>
+            <div class="info-item"><i class="fa-solid fa-laptop-code"></i><span><small>Focus</small>Full Stack Development</span></div>
+            <div class="info-item"><i class="fa-solid fa-location-dot"></i><span><small>Based in</small>West Bengal, India</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">TECH STACK</span>
+          <h2>My <span>Skills</span></h2>
+          <p>Technologies I'm learning and using to build complete applications.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card glass reveal">
+            <div class="skill-icon"><i class="fa-solid fa-palette"></i></div>
+            <h3>Frontend</h3>
+            <p>Creating responsive, accessible and interactive user interfaces.</p>
+            <div class="skill-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive UI</span></div>
+          </article>
+          <article class="skill-card glass reveal">
+            <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+            <h3>Backend</h3>
+            <p>Learning server-side application architecture and APIs.</p>
+            <div class="skill-list"><span>Node.js</span><span>Express.js</span><span>REST API</span><span>Authentication</span></div>
+          </article>
+          <article class="skill-card glass reveal">
+            <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+            <h3>Database</h3>
+            <p>Working with structured and document-oriented data.</p>
+            <div class="skill-list"><span>MySQL</span><span>MongoDB</span><span>CRUD</span><span>Data Modeling</span></div>
+          </article>
+          <article class="skill-card glass reveal">
+            <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+            <h3>Tools & Other</h3>
+            <p>Development workflow, version control and programming fundamentals.</p>
+            <div class="skill-list"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Java</span><span>Python</span></div>
+          </article>
+        </div>
+
+        <div class="tech-strip glass reveal">
+          <span><i class="fa-brands fa-html5"></i> HTML5</span>
+          <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+          <span><i class="fa-brands fa-js"></i> JavaScript</span>
+          <span><i class="fa-brands fa-node-js"></i> Node.js</span>
+          <span><i class="fa-brands fa-python"></i> Python</span>
+          <span><i class="fa-brands fa-java"></i> Java</span>
+          <span><i class="fa-brands fa-git-alt"></i> Git</span>
+          <span><i class="fa-brands fa-github"></i> GitHub</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading heading-row reveal">
+          <div>
+            <span class="section-kicker">SELECTED WORK</span>
+            <h2>Things I've <span>Built</span></h2>
+            <p>Frontend projects now, with full-stack growth in progress.</p>
+          </div>
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="security">Security</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card glass reveal" data-category="web">
+            <div class="project-art anime-art"><span></span><i class="fa-solid fa-store"></i></div>
+            <div class="project-body">
+              <span class="project-type">E-COMMERCE</span>
+              <h3>The Style Hub</h3>
+              <p>A modern e-commerce platform for fashion products with a focus on user experience and responsive design.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links"><a href="http://127.0.0.1:5500/OtakuVerse/index.html" class="text-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a href="#" class="text-link">GitHub <i class="fa-brands fa-github"></i></a></div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="security">
+            <div class="project-art security-art"><span>APK SENTINEL</span><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="project-body">
+              <span class="project-type">AI / CYBERSECURITY</span>
+              <h3>APKSentinel AI</h3>
+              <p>An AI-oriented Android malware detection concept with dashboard-style threat insights.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>AI Concept</span></div>
+              <div class="project-links"><a href="https://subhajit998-cmd.github.io/Sentinel-AI/APK/index.html" class="text-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a href="https://github.com/subhajit998-cmd/Sentinel-AI" class="text-link">GitHub <i class="fa-brands fa-github"></i></a></div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="web">
+            <div class="project-art calc-art"><span>12345</span><i class="fa-solid fa-calculator"></i></div>
+            <div class="project-body">
+              <span class="project-type">FRONTEND</span>
+              <h3>Scientific Calculator</h3>
+              <p>A responsive calculator interface built with HTML, CSS and JavaScript with advanced operations.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links"><a href="https://subhajit998-cmd.github.io/Scientific_Calculator/" class="text-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a href="https://github.com/subhajit998-cmd/Scientific_Calculator" class="text-link">GitHub <i class="fa-brands fa-github"></i></a></div>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="web">
+            <div class="project-art calc-art"><span>My Image Gallery</span><i class="fa-solid fa-calculator"></i></div>
+            <div class="project-body">
+              <span class="project-type">FRONTEND</span>
+              <h3>My Image Gallery</h3>
+              <p>A responsive image gallery interface built with HTML, CSS and JavaScript.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links"><a href="https://subhajit998-cmd.github.io/My_Image_Gallery/" class="text-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a href="https://github.com/subhajit998-cmd/My_Image_Gallery" class="text-link">GitHub <i class="fa-brands fa-github"></i></a></div>
+            </div>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section" id="certificates"><div class="container">
+<div class="section-heading reveal"><span class="section-kicker">ACHIEVEMENTS</span><h2>My <span>Certificates</span></h2><p>Professional courses and learning certificates.</p></div>
+<div class="certificate-grid"><article class="certificate-card glass reveal">
+<div class="certificate-image"><img src="assets/certificates/ai-powered-copywriting.png" alt="AI-Powered Copywriting certificate"></div>
+<div class="certificate-content"><span class="project-type">CERTIFICATE</span><h3>AI-Powered Copywriting</h3><p>Certificate of course completion.</p><a href="assets/certificates/ai-powered-copywriting.png" target="_blank" class="btn btn-outline small">View Certificate <i class="fa-solid fa-up-right-from-square"></i></a></div>
+</article><article class="certificate-card glass reveal">
+<div class="certificate-image"><img src="assets/certificates/python Pro Bootcamp.png" alt="Python Pro Bootcamp certificate"></div>
+<div class="certificate-content"><span class="project-type">CERTIFICATE</span><h3>Python Pro Bootcamp</h3><p>Certificate of course completion.</p><a href="assets/certificates/python Pro Bootcamp.png" target="_blank" class="btn btn-outline small">View Certificate <i class="fa-solid fa-up-right-from-square"></i></a></div>
+</article><article class="certificate-card glass reveal">
+<div class="certificate-image"><img src="assets/certificates/firebase-and-flutter.png" alt="Firebase & Flutter certificate"></div>
+<div class="certificate-content"><span class="project-type">CERTIFICATE</span><h3>Firebase & Flutter</h3><p>Certificate of course completion.</p><a href="assets/certificates/firebase-and-flutter.png" target="_blank" class="btn btn-outline small">View Certificate <i class="fa-solid fa-up-right-from-square"></i></a></div>
+</article><article class="certificate-card glass reveal">
+<div class="certificate-image"><img src="assets/certificates/subhajit-show.png" alt="Subhajit Show certificate"></div>
+<div class="certificate-content"><span class="project-type">CERTIFICATE</span><h3>Subhajit Show</h3><p>Certificate of course completion.</p><a href="assets/certificates/subhajit-show.png" target="_blank" class="btn btn-outline small">View Certificate <i class="fa-solid fa-up-right-from-square"></i></a></div>
+</article></div></div>
+
+
+</section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">EDUCATION</span>
+          <h2>Academic <span>Journey</span></h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-card glass">
+              <span class="timeline-date">CURRENT / RECENT</span>
+              <h3>Haldia Institute of Technology</h3>
+              <h4>B.Tech — Computer Science & Engineering</h4>
+              <p>Building foundations in programming, data structures, algorithms, web development, databases, operating systems and computer networks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card glass reveal">
+          <div class="contact-info">
+            <span class="section-kicker">CONTACT</span>
+            <h2>Let's work <span>together.</span></h2>
+            <p>Have a project idea, collaboration opportunity, or just want to connect? Send a message.</p>
+            <div class="contact-line"><i class="fa-regular fa-envelope"></i><span><small>Email</small>subhajitshow67@gmail.com</span></div>
+            <div class="contact-line"><i class="fa-solid fa-location-dot"></i><span><small>Location</small>West Bengal, India</span></div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <label>Name<input type="text" id="name" placeholder="Your name" required></label>
+              <label>Email<input type="email" id="email" placeholder="you@example.com" required></label>
+            </div>
+            <label>Subject<input type="text" id="subject" placeholder="Project / Collaboration"></label>
+            <label>Message<textarea id="message" rows="6" placeholder="Tell me about your idea..." required></textarea></label>
+            <button class="btn btn-primary full" type="submit">Send Message <i class="fa-regular fa-paper-plane"></i></button>
+            <p class="form-note">Frontend demo: connect this form to your backend/email service when ready.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo"><span>SS</span> SUBHAJIT <b>SHOW</b></a>
+      <p>© <span id="year"></span> Subhajit Show. Built with passion & code.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/subhajit998-cmd" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/subhajit-show-b367213a0" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <div class="toast" id="toast"><i class="fa-solid fa-circle-check"></i><span>Message prepared successfully.</span></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
